@@ -7,6 +7,13 @@ npm set init.author.name "ag_dubs"
 npm set init.license "MIT"
 ```
 
+you can set these options in ~/.npmrc to update your defaults:
+```
+npm config set save=true
+npm config set save-exact=true
+cat ~/.npmrc
+```
+
 ## config
 
 A "config" object can be used to set configuration parameters used in package scripts that persist across upgrades. For instance, if a package had the following:
