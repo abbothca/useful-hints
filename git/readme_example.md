@@ -40,6 +40,23 @@ You can quote text with a >.
 > Pardon my French
 __________________________________________________________________________________________
 
+## Images
+\!\[ GitHub Logo \] \(/images/logo.png \)
+Format: \!\[ Alt Text \] \(url\)
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+__________________________________________________________________________________________
+
+## Inline code
+
+I think you should use an
+`<addr>` element here instead.
+
+I think you should use an
+\` \< addr \> \` element here instead.
+__________________________________________________________________________________________
+
 ## Quoting code
 
 You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted.
