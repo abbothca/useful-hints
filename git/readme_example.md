@@ -1,4 +1,4 @@
-### Basic writing and formatting syntax of the README.md
+# Basic writing and formatting syntax of the README.md
 
 See link [Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
 Or see that one - [Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax#backslash).
@@ -11,8 +11,9 @@ You can tell GitHub to ignore (or escape) Markdown formatting by using '\' befor
 ## Headings
 
 To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading. 
-\# Heading 
-# Heading 
+
+\### Heading 
+### Heading 
 
 ## Styling text
 
@@ -61,7 +62,7 @@ You can make an unordered list by preceding one or more lines of text with - or 
 - John Adams
 - Thomas Jefferson
 
-# Nested Lists
+### Nested Lists
 
 You can create a nested list by indenting one or more list items below another item.
 
@@ -81,7 +82,7 @@ You can mention a person or team on GitHub by typing @ plus their username or te
 
 @github/abbothca What do you think about these updates?
 
-#Using emoji
+## Using emoji
 
 You can add emoji to your writing by typing :EMOJICODE:.
 
