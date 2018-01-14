@@ -38,11 +38,13 @@ You can quote text with a >.
 You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted.
 
 \```
+
 git status
 
 git add
 
 git commit
+
 \```
 ```
 git status
@@ -54,7 +56,7 @@ git commit
 
 You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
 
-This site was built using \[GitHub Pages\]\(https://pages.github.com/\).
+This site was built using \[ GitHub Pages \] \( https://pages.github.com/ \).
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 ## Lists
@@ -83,7 +85,7 @@ To create a task list, preface list items with [ ]. To mark a task as complete, 
 
 You can add emoji to your writing by typing :EMOJICODE:.
 
-\:+1\: This PR looks great - it's ready to merge! \:shipit\:
+\: +1 \: This PR looks great - it's ready to merge! \: shipit \:
 :+1: This PR looks great - it's ready to merge! :shipit:
 
 Rendered emoji
