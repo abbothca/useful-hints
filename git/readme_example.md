@@ -5,28 +5,30 @@ Or see that one - [Markdown: Syntax](https://daringfireball.net/projects/markdow
 
 ## Ignoring Markdown formatting
 
-You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
+You can tell GitHub to ignore (or escape) Markdown formatting by using '\' before the Markdown character.
 
-Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ## Headings
 
-To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading.
+To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the size of the heading. 
+\# Heading 
+# Heading 
 
 ## Styling text
 
 You can indicate emphasis with bold, italic, or strikethrough text:
 
 bold \**some text\** or \__some text\__ - **some text**
+
 italic \*some text\* or \_some text\_ - *some text*
+
 strikethrough \~~some text\~~ - ~~some text~~
 
 ## Quoting text
 
 You can quote text with a >.
 
-In the words of Abraham Lincoln:
-
+\> Pardon my French
 > Pardon my French
 
 
@@ -34,13 +36,17 @@ In the words of Abraham Lincoln:
 
 You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted.
 
-Some basic Git commands are:
-
+\```
+git status
+git add
+git commit
+\```
 ```
 git status
 git add
 git commit
 ```
+
 ## Links
 
 You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
