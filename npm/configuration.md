@@ -19,7 +19,7 @@ See the guid [How to Prevent Permissions Errors](https://docs.npmjs.com/getting-
 
 # npm-init for short
 
-If you invoke it with -f, --force, -y, or --yes, it will use only defaults and not prompt you for any options.
+If you invoke it with **-f**, **--force**, **-y**, or **--yes**, it will use only defaults and not prompt you for any options.
 ```bash
 npm init --yes
 ```
