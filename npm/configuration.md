@@ -1,6 +1,6 @@
 # Using 'npm install' without Sudo
 
-Npm packages installs should be done without sudo. Infact sudo should be never be used unless tinkering with system wide permissions. Node puts npm packages in a specific folder, usually /usr/local/lib/node_modules. But the trouble is you need sudo permissions to write here. This leads to an endless use of non-requisite sudo permissions. This location is what we need to change and here are handy terminal commands to achieve the same
+Npm packages installs should be done without sudo. Infact sudo should be never be used unless tinkering with system wide permissions. Node puts npm packages in a specific folder, usually **/usr/local/lib/node_modules**. But the trouble is you need sudo permissions to write here. This leads to an endless use of non-requisite sudo permissions. This location is what we need to change and here are handy terminal commands to achieve the same
 
 ```bash
 mkdir ~/.npm
@@ -14,7 +14,7 @@ export PATH="$PATH:$HOME/.npm/bin"
 source ~/.bashrc
 ```
 
-See guid [How to Prevent Permissions Errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+See the guid [How to Prevent Permissions Errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 
 
 # npm-init for short
@@ -26,7 +26,7 @@ npm init --yes
 
 # Automating npm init Just a Bit More
 
-When you're creating a new module from scratch, you'll typically start out with the ** npm init ** command. One thing that some developers don't know is that you can actually automate this process fairly heftily with a few choice npm config ** set ... ** commands that set default values for the ** npm init ** prompts.
+When you're creating a new module from scratch, you'll typically start out with the **npm init** command. One thing that some developers don't know is that you can actually automate this process fairly heftily with a few choice npm config **set ...** commands that set default values for the **npm init** prompts.
 
 You can easily set your name, email, URL, license, and initial module version with a few commands:
 
@@ -40,7 +40,7 @@ npm config set init.version "0.0.1"
 
 # Changing the console output of npm install with loglevel
 
-When you npm install a bunch of information gets piped to you. By default, the npm command line tool limits how much of this information is actually output into the console when installing. There are varying degrees of output that you can assign at install, or by default, if you change it with npm config in your .npmrc file. The options, from least to most output, are: silent, error, warn, http, info, verbose, and silly.
+When you npm install a bunch of information gets piped to you. By default, the npm command line tool limits how much of this information is actually output into the console when installing. There are varying degrees of output that you can assign at install, or by default, if you change it with npm config in your .npmrc file. The options, from least to most output, are: **silent**, **error**, **warn**, **http**, **info**, **verbose**, and **silly**.
 
 ```bash
 npm install express --loglevel silent
