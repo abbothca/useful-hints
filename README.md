@@ -3,7 +3,7 @@
 front-end hints
 
 - git
- - markdown syntax [link](git/readme_example.md)
+  - markdown syntax [link](git/readme_example.md)
 - npm
- - npm configuration [link](npm/configuration.md)
+  - npm configuration [link](npm/configuration.md)
 
