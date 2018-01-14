@@ -6,4 +6,5 @@ front-end hints
   - markdown syntax [link](git/readme_example.md)
 - npm
   - npm configuration [link](npm/configuration.md)
+  - package.json [link](npm/package.json.md)
 
