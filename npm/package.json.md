@@ -1,12 +1,39 @@
-## npm-link
+## Set init data
 
-First, npm link in a package folder will create a symlink in the global folder `{prefix}/lib/node_modules/<package>` that links to the package where the npm link command was executed. It will also link any bins in the package to '{prefix}/bin/{name}'.
-
-Next, in some other location, `npm link package-name` will create a symbolic link from globally-installed **package-name** to **node_modules/** of the current folder.
-
+You can also set several config options for the init command. Some useful ones:
 ```
-npm link (in package dir)
-npm link [<@scope>/]<pkg>[@<version>]
+npm set init.author.email "wombat@npmjs.com"
+npm set init.author.name "ag_dubs"
+npm set init.license "MIT"
+```
+
+## config
+
+A "config" object can be used to set configuration parameters used in package scripts that persist across upgrades. For instance, if a package had the following:
+```
+{ 
+  "name" : "foo",
+  "config" : { 
+    "port" : "8080",
+    "somevar" : "some text" 
+  } 
+}
+```
+and then had a `"start"` command that then referenced the **npm_package_config_port** or **npm_package_config_somevar** environment variable.
+
+## current lifecycle event
+
+Lastly, the npm_lifecycle_event environment variable is set to whichever stage of the cycle is being executed. So, you could have a single script used for different parts of the process which switches based on what's currently happening.
+
+If you want to run a make command `npm run install`, you can do so. This works just fine:
+```
+{ 
+  "scripts" : { 
+     "preinstall" : "./configure", 
+     "install" : "make && make install", 
+     "test" : "make test"
+  }
+}
 ```
 
 ## engines
