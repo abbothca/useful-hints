@@ -44,7 +44,7 @@ ________________________________________________________________________________
 
 Format: \!\[ Alt Text \] \(url\)
 
-![GitHub Logo](https://www.google.com.ua/imgres?imgurl=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fmodules%2Flogos_page%2FGitHub-Mark.png&imgrefurl=https%3A%2F%2Fgithub.com%2Flogos&docid=H8p6HHzcTglWAM&tbnid=EjYxU3xL8GCuTM%3A&vet=10ahUKEwjixt-z49fYAhWMKJoKHQfYAtcQMwiiASgAMAA..i&w=560&h=560&bih=965&biw=1314&q=github%20logo&ved=0ahUKEwjixt-z49fYAhWMKJoKHQfYAtcQMwiiASgAMAA&iact=mrc&uact=8)
+![GitHub Logo](https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png)
 __________________________________________________________________________________________
 
 ## Inline code
