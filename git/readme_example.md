@@ -41,11 +41,10 @@ You can quote text with a >.
 __________________________________________________________________________________________
 
 ## Images
-\!\[ GitHub Logo \] \(/images/logo.png \)
+
 Format: \!\[ Alt Text \] \(url\)
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![GitHub Logo](https://www.google.com.ua/imgres?imgurl=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fmodules%2Flogos_page%2FGitHub-Mark.png&imgrefurl=https%3A%2F%2Fgithub.com%2Flogos&docid=H8p6HHzcTglWAM&tbnid=EjYxU3xL8GCuTM%3A&vet=10ahUKEwjixt-z49fYAhWMKJoKHQfYAtcQMwiiASgAMAA..i&w=560&h=560&bih=965&biw=1314&q=github%20logo&ved=0ahUKEwjixt-z49fYAhWMKJoKHQfYAtcQMwiiASgAMAA&iact=mrc&uact=8)
 __________________________________________________________________________________________
 
 ## Inline code
@@ -84,6 +83,12 @@ You can create an inline link by wrapping link text in brackets [ ], and then wr
 This site was built using \[ GitHub Pages \] \( https://pages.github.com/ \).
 
 This site was built using [GitHub Pages](https://pages.github.com/).
+
+…you can use a relative link:
+
+\[a relative link\]\(other_file.md\)
+
+[a relative link](other_file.md)
 __________________________________________________________________________________________
 
 ## Lists
@@ -93,7 +98,7 @@ You can make an unordered list by preceding one or more lines of text with - or 
 - George Washington
 - John Adams
 - Thomas Jefferson
-__________________________________________________________________________________________
+
 
 ### Nested Lists
 
@@ -125,7 +130,14 @@ Typing : will bring up a list of suggested emoji. The list will filter as you ty
 __________________________________________________________________________________________
 
 
+## Tables
 
+You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 
 
