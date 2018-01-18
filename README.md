@@ -9,5 +9,7 @@ Front-end hints
   - package.json [See more](npm/package.json.md)
   - install && remove [See more](npm/install-remove.md)
   - task runner [See more](npm/task_runner.md)
+- linter
+  - CSS [See more](linter/css.md)
 
 
