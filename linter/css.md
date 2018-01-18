@@ -381,6 +381,16 @@ Put `.csscomb.json` file in the project root:
 }
 ```
 
+Then run 
+
+```
+"scripts": {
+        ...
+        "csscomb": "csscomb 'dev/assets/scss/'",
+        ...
+}
+```
+
 ## Stylelint
 
 stylelint is an npm package. Install it using:
@@ -454,3 +464,12 @@ A partial stylelint configuration object whose properties will override the exis
 }
 ```
 
+Run 
+
+```
+"scripts": {
+        ...
+        "stylelint": "stylelint '**/*.scss'",
+        ...
+}
+```
