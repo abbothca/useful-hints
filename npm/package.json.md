@@ -28,21 +28,6 @@ A "config" object can be used to set configuration parameters used in package sc
 ```
 and then had a `"start"` command that then referenced the **npm_package_config_port** or **npm_package_config_somevar** environment variable.
 
-## current lifecycle event
-
-Lastly, the npm_lifecycle_event environment variable is set to whichever stage of the cycle is being executed. So, you could have a single script used for different parts of the process which switches based on what's currently happening.
-
-If you want to run a make command `npm run install`, you can do so. This works just fine:
-```
-{ 
-  "scripts" : { 
-     "preinstall" : "./configure", 
-     "install" : "make && make install", 
-     "test" : "make test"
-  }
-}
-```
-
 ## engines
 
 You can specify the version of node that your stuff works on:

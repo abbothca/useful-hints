@@ -5,8 +5,24 @@ There are tools that watch files and execute commands when files change, for exa
 ```
 ...
 "build": "npm run build:js && npm run build:css && npm run build:html",
- "build:watch": "watch 'npm run build' .",
+
+"build:watch": "watch 'npm run build' .",
 ....
+```
+
+## current lifecycle event
+
+Lastly, the npm_lifecycle_event environment variable is set to whichever stage of the cycle is being executed. So, you could have a single script used for different parts of the process which switches based on what's currently happening.
+
+If you want to run a make command `npm run install`, you can do so. This works just fine:
+```
+{ 
+  "scripts" : { 
+     "preinstall" : "./configure", 
+     "install" : "make && make install", 
+     "test" : "make test"
+  }
+}
 ```
 
 ## Running multiple tasks
